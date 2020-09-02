@@ -44,7 +44,7 @@ sudo docker run --gpus all --name="hfnet-ros" --net=host -it -v /YOUR/PATH:/root
 cd /root/data
 mkdir -p catkin_ws/src
 cd catkin_ws/src
-git@github.com:TurtleZhong/hfnet_ros.git
+git clone https://github.com/TurtleZhong/hfnet_ros.git
 
 # fetch model
 cd hfnet_ros/model/
